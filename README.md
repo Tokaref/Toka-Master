@@ -1,7 +1,6 @@
-
 # TOKA-MASTER !
 
-Ce script vous permet de générer en python des combinaisons d'email courant dans un fichier txt , ce script est utilise quand il est assemblé avec Epios
+Ce script vous permet de générer en python des combinaisons d'email courant dans un fichier txt, ce script est utilise quand il est assemblé avec Epios ou Ghunt
 
 
 ## Installation
@@ -24,4 +23,3 @@ $ python3 -m pip install -r requirements.txt
 python3 main.py
 ```
 (mon premier script posté sur github)
-
