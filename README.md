@@ -1,9 +1,19 @@
+
 # TOKA-MASTER !
 
-Ce script vous permet de générer en python des combinaisons d'email courant dans un fichier txt, ce script est utilise quand il est assemblé avec Epios ou Ghunt
+Toka-Master est un script axé sur osint , il vous permet de générer en python des combinaisons d'email courant dans un fichier txt,ce script s'avère être utile quand il est assemblé avec Epios ou Ghunt.
 
 
-## Installation
+## ✔️Exigences
+
+## ✔️Exigences
+
+ - Python >= 3.10
+
+
+## ✔️Exigences
+
+## ⚙️Installation
 
 
 
@@ -19,7 +29,9 @@ $ python3 -m pip install -r requirements.txt
 ```
     
 ## Usage
-```javascript
+
+```bash
 python3 main.py
+
 ```
-(mon premier script posté sur github)
+    
