@@ -1,3 +1,4 @@
-pip install time
-pip install colorama
-pip3 install pystyle
+python-time>=0.3.0
+colorama>=0.4.6
+pystyle>=2.9
+
