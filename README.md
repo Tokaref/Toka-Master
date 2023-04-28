@@ -6,12 +6,7 @@ Toka-Master est un script axé sur osint , il vous permet de générer en python
 
 ## ✔️Exigences
 
-## ✔️Exigences
-
  - Python >= 3.10
-
-
-## ✔️Exigences
 
 ## ⚙️Installation
 
