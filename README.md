@@ -29,4 +29,3 @@ $ python3 -m pip install -r requirements.txt
 python3 main.py
 
 ```
- ![logo](https://cdn.discordapp.com/attachments/1095078427104653385/1101920563083088034/Capture.JPG)
