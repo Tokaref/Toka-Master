@@ -124,9 +124,11 @@ class inp:
         Nom = pystyle.Write.Input("      [ ] Nom > ", Colors.cyan_to_green, interval=0.00)
         prenom = pystyle.Write.Input("      [ ] prenom > ", Colors.cyan_to_green, interval=0.00)
         domaine = pystyle.Write.Input("      [perso] domaine > ", Colors.cyan_to_green, interval=0.00)
+        depart = pystyle.Write.Input("      [ ] Departement > ", Colors.cyan_to_green, interval=0.00)
         self.Nom = Nom
         self.prenom = prenom
         self.domaine = domaine
+        self.depart = depart
 
 
 h1 = inp()
@@ -168,6 +170,8 @@ class fichier:
         fichier.write("\n [DOMAINE PERSO] = " +'{}'.format(h1.Nom) + "@" + '{}'.format(h1.domaine))
         fichier.write("\n [DOMAINE PERSO] = " +'{}'.format(h1.prenom) + "@" + '{}'.format(h1.domaine))
         fichier.write("\n [DOMAINE PERSO] = " + '{}'.format(h1.prenom) +'{}'.format(h1.Nom) + "@" + '{}'.format(h1.domaine))
+        fichier.write("\n [DOMAINE PERSO] = " + '{}'.format(h1.Nom) +'{}'.format(h1.prenom) +'{}'.format(h1.depart) + "@" + '{}'.format(h1.domaine))
+        fichier.write("\n [DOMAINE PERSO] = " + '{}'.format(h1.prenom) +'{}'.format(h1.Nom) +'{}'.format(h1.depart) + "@" + '{}'.format(h1.domaine))
         fichier.write("\n [DOMAINE PERSO] = " + '{}'.format(h1.Nom) +'{}'.format(h1.prenom) + "@" + '{}'.format(h1.domaine))
         fichier.write("\n [DOMAINE PERSO] = " + '{}'.format(h1.prenom) +"." + '{}'.format(h1.Nom) + "@" + '{}'.format(h1.domaine))
         fichier.write("\n [DOMAINE PERSO] = " + '{}'.format(h1.Nom) +"." + '{}'.format(h1.prenom) + "@" + '{}'.format(h1.domaine))
@@ -186,6 +190,8 @@ class fichier:
         fichier.write("\n [GMAIL] = " +'{}'.format(h1.prenom) + "@" + "gmail.com")
         fichier.write("\n [GMAIL] = " + '{}'.format(h1.prenom) +'{}'.format(h1.Nom) + "@" + "gmail.com")
         fichier.write("\n [GMAIL] = " + '{}'.format(h1.Nom) +'{}'.format(h1.prenom) + "@" + "gmail.com")
+        fichier.write("\n [GMAIL] = " + '{}'.format(h1.Nom) +'{}'.format(h1.prenom) + '{}'.format(h1.depart) + "@" + "gmail.com")
+        fichier.write("\n [GMAIL] = " + '{}'.format(h1.prenom) +'{}'.format(h1.Nom) + '{}'.format(h1.depart) + "@" + "gmail.com")
         fichier.write("\n [GMAIL] = " + '{}'.format(h1.prenom) +"." + '{}'.format(h1.Nom) + "@" + "gmail.com")
         fichier.write("\n [GMAIL] = " + '{}'.format(h1.Nom) +"." + '{}'.format(h1.prenom) + "@" + "gmail.com")
         fichier.write("\n [GMAIL] = " + '{}'.format(h1.Nom) + '{}'.format(h1.prenom) + "_" + "@" + "gmail.com")
@@ -205,6 +211,8 @@ class fichier:
         fichier.write("\n [ICLOUD] = " + '{}'.format(h1.Nom) +'{}'.format(h1.prenom) + "@" + "icloud.com")
         fichier.write("\n [ICLOUD] = " + '{}'.format(h1.prenom) +"." + '{}'.format(h1.Nom) + "@" + "icloud.com")
         fichier.write("\n [ICLOUD] = " + '{}'.format(h1.Nom) +"." + '{}'.format(h1.prenom) + "@" + "icloud.com")
+        fichier.write("\n [ICLOUD] = " + '{}'.format(h1.Nom) +'{}'.format(h1.prenom) + '{}'.format(h1.depart) + "@" + "icloud.com")
+        fichier.write("\n [ICLOUD] = " + '{}'.format(h1.prenom) +'{}'.format(h1.Nom) + '{}'.format(h1.depart) + "@" + "icloud.com")
         fichier.write("\n [ICLOUD] = " + '{}'.format(h1.Nom) + '{}'.format(h1.prenom) + "_" + "@" + "icloud.com")
         fichier.write("\n [ICLOUD] = " + '{}'.format(h1.prenom) + '{}'.format(h1.Nom) + "_" + "@" + "icloud.com")
         fichier.write("\n [ICLOUD] = " + '{}'.format(h1.Nom) + '{}'.format(h1.prenom) + "-" + "@" + "icloud.com")
@@ -220,6 +228,8 @@ class fichier:
         fichier.write("\n [YAHOO] = " +'{}'.format(h1.prenom) + "@" + "yahoo.fr")
         fichier.write("\n [YAHOO] = " + '{}'.format(h1.prenom) +'{}'.format(h1.Nom) + "@" + "yahoo.fr")
         fichier.write("\n [YAHOO] = " + '{}'.format(h1.Nom) +'{}'.format(h1.prenom) + "@" + "yahoo.fr")
+        fichier.write("\n [YAHOO] = " + '{}'.format(h1.Nom) +'{}'.format(h1.prenom) + '{}'.format(h1.depart) + "@" + "yahoo.fr")
+        fichier.write("\n [YAHOO] = " + '{}'.format(h1.prenom) +'{}'.format(h1.Nom) + '{}'.format(h1.depart) + "@" + "yahoo.fr")
         fichier.write("\n [YAHOO] = " + '{}'.format(h1.prenom) +"." + '{}'.format(h1.Nom) + "@" + "yahoo.fr")
         fichier.write("\n [YAHOO] = " + '{}'.format(h1.Nom) +"." + '{}'.format(h1.prenom) + "@" + "yahoo.fr")
         fichier.write("\n [YAHOO] = " + '{}'.format(h1.Nom) + '{}'.format(h1.prenom) + "_" + "@" + "yahoo.fr")
